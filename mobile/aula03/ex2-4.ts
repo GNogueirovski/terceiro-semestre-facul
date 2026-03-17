@@ -12,7 +12,7 @@ const quantidadeNotas : number[] = [];
 quantidadeNotas [0] = 10.0;
 quantidadeNotas [1] = 0;
 
-const {nome, ...notas} = quantidadeNotas
+const{ ...notas} = quantidadeNotas
 console.log("notas aluno: ", ...notas);
 
 

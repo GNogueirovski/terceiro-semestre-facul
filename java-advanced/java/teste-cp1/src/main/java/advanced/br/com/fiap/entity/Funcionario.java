@@ -1,0 +1,4 @@
+package advanced.br.com.fiap.entity;
+
+public class Funcionario {
+}
