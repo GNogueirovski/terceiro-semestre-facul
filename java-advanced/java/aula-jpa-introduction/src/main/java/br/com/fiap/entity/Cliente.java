@@ -2,21 +2,7 @@ package br.com.fiap.entity;
 
 import java.util.Calendar;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Lob;
-import javax.persistence.PostPersist;
-import javax.persistence.PrePersist;
-import javax.persistence.SequenceGenerator;
-import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-import javax.persistence.Transient;
+import javax.persistence.*;
 
 import org.hibernate.annotations.CreationTimestamp;
 
@@ -71,7 +57,7 @@ public class Cliente {
 		this.genero = genero;
 	}
 	
-	@PostPersist //Executa o metodo apos o persist
+	@PostPersist
 	private void executar() {
 		System.out.println("Executando o método..");
 	}
