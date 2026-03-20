@@ -4,6 +4,10 @@ package advanced.br.com.fiap.entity;
 import advanced.br.com.fiap.annotations.Descricao;
 
 import javax.persistence.*;
+import java.lang.reflect.Field;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 @Entity
 @Table(name = "TB_FUNCIONARIO")
@@ -62,22 +66,43 @@ public class Funcionario {
         this.valorHoraTrabalhada = valorHoraTrabalhada;
     }
 
-    public void exibirSQL(Object objeto, String operacao) {
-        Table table = objeto.getClass().getAnnotation(Table.class);
-        String nomeTabela = table.name();
+    public void exibirSQL(Funcionario funcionario, String operacao) {
+        Table table = funcionario.getClass().getSuperclass().getAnnotation(Table.class);
+        Field[] fields = funcionario.getClass().getSuperclass().getDeclaredFields();
+
+        List<String> nomeColunas = new ArrayList<>();
+        for (Field field : fields) {
+            if (field.isAnnotationPresent(Column.class)) {
+                Column column = field.getAnnotation(Column.class);
+                nomeColunas.add(column.name());
+            }
+        }
+
+        String colunas = String.join(", ", nomeColunas);
 
         switch (operacao.toUpperCase()) {
             case "SELECT":
-                System.out.println("SELECT * FROM " + nomeTabela);
+                System.out.printf("SELECT * FROM %s",table.name());
                 break;
             case "INSERT":
-                System.out.println("INSERT INTO " + nomeTabela + " VALUES (...)");
+                System.out.printf("INSERT INTO %s (%s)  VALUES ('%s','%s', '%s', '%s')",
+                        table.name(), colunas,
+                        funcionario.getId(),
+                        funcionario.getNome(),
+                        funcionario.getHorasTrabalhadas(),
+                        funcionario.getValorHoraTrabalhada());
                 break;
             case "UPDATE":
-                System.out.println("UPDATE " + nomeTabela + " SET ... WHERE id = " + this.getId());
+                System.out.printf("UPDATE %s SET (%s) = ('%s','%s','%s','%s') WHERE id_funcionario = %d",
+                        table.name(), colunas,
+                        funcionario.getId(),
+                        funcionario.getNome(),
+                        funcionario.getHorasTrabalhadas(),
+                        funcionario.getValorHoraTrabalhada(),
+                        funcionario.getId());
                 break;
             case "DELETE":
-                System.out.println("DELETE FROM " + nomeTabela + " WHERE id = " + this.getId());
+                System.out.printf("DELETE FROM %s WHERE id_funcionario = %d", table.name(), funcionario.getId());
                 break;
         }
     }

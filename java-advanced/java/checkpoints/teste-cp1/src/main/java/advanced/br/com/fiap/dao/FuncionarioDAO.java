@@ -6,11 +6,12 @@ import advanced.br.com.fiap.exception.IdNaoEncontradoException;
 
 public interface FuncionarioDAO {
     void cadastrar(Funcionario funcionario);
+
     void atualizar(Funcionario funcionario) throws IdNaoEncontradoException;
 
     void remover(int id) throws IdNaoEncontradoException;
 
-    Object buscarPorId(int id) throws IdNaoEncontradoException;
+    Funcionario buscarPorId(int id) throws IdNaoEncontradoException;
 
     void commit() throws CommitException;
 }

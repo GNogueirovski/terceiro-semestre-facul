@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="959da5bf-0a12-499a-b483-ecd6e4f187b5" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.ask2agent.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/copilot.data.migration.edit.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/br/com/fiap/annotations/Descricao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/br/com/fiap/dao/FuncionarioDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/br/com/fiap/dao/FuncionarioDAOImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/br/com/fiap/entity/Funcionario.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/br/com/fiap/exception/CommitException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/br/com/fiap/exception/IdNaoEncontradoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/advanced/br/com/fiap/view/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/persistence.xml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;GNogueirovski&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/GNogueirovski/terceiro-semestre-facul.git&quot;,
+    &quot;accountId&quot;: &quot;308f226c-b291-4da6-a474-d8ec1a5045ca&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3ArwpJX3Ce2YAZb3DnxaKZtEIBr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/spbie/Desktop/WORKSPACE/Faculdade/segundo-ano-facul/terceiro-semestre-facul/java-advanced/java/checkpoints/teste-cp1",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "terminal",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="advanced.br.com.fiap.entity" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-125ca727e0f0-intellij.indexing.shared.core-IU-243.24978.46" />
+        <option value="bundled-js-predefined-d6986cc7102b-76f8388c3a79-JavaScript-IU-243.24978.46" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="959da5bf-0a12-499a-b483-ecd6e4f187b5" name="Changes" comment="" />
+      <created>1743564196380</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1743564196380</updated>
+      <workItem from="1743564197488" duration="640000" />
+      <workItem from="1773364180657" duration="34000" />
+      <workItem from="1773364263410" duration="107000" />
+      <workItem from="1773364373912" duration="2000" />
+      <workItem from="1773364390453" duration="231000" />
+      <workItem from="1773364633146" duration="24000" />
+      <workItem from="1773364662550" duration="127000" />
+      <workItem from="1773364801833" duration="27000" />
+      <workItem from="1773364971724" duration="23000" />
+      <workItem from="1773366423187" duration="343000" />
+      <workItem from="1773366852138" duration="5000" />
+      <workItem from="1773366875905" duration="384000" />
+      <workItem from="1773755184157" duration="141000" />
+      <workItem from="1773757294915" duration="30000" />
+      <workItem from="1773881215072" duration="2347000" />
+      <workItem from="1773967737556" duration="1911000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
