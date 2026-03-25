@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="AppStart" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="br.com.fiap.spring_aula1.SpringAula1Application" />
+    <module name="spring-aula1" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
